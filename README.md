@@ -51,7 +51,23 @@ The Notebook contains paragraphs of explanatory text interspersed with grey cell
 7.  You can edit code blocks yourself and run them to see the results of your changes
 
 ## Data 
-The data in here has been collected from the Scottish Statistical Accounts Data https://collectionsmanager.is.ed.ac.uk/handle/10683/119269 and the National Records of Scotland https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/other-national-records-of-scotland-nrs-geographies-datasets/historic-civil-parishes-pre-1891
+The data in here has been collected from the Scottish Statistical Accounts Data https://collectionsmanager.is.ed.ac.uk/handle/10683/119269 and the National Records of Scotland https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/other-national-records-of-scotland-nrs-geographies-datasets/historic-civil-parishes-pre-1891. 
+
+The Statistical Accounts of Scotland are a series of documentary publications, related in subject matter though published at different times, covering life in Scotland in the 18th and 19th.
+
+The Old (or First) Statistical Account of Scotland was published between 1791 and 1799 by Sir John Sinclair of Ulbster. The New (or Second) Statistical Account of Scotland published under the auspices of the General Assembly of the Church of Scotland between 1834 and 1845. These first two Statistical Accounts of Scotland are unique records of life during the agricultural and industrial revolutions in Europe.
+
+### Data Structure
+The original publication has been scanned and OCRed and each single record has been collected in a .txt file. The name of each file contain information about the document itself. For example StAS.2.15.91.P.Orkney.Cross_and_Burness
+
+- StAs.2.15.91 -> Second Statistical Account
+- P -> Parish (Contain information from the Parish)
+
+- Orkney -> Area of interest (Scotland has been divided in 33 Areas)
+
+- Cross_and_Burness -> Parish
+
+We are going to see how to use this to extract information about all our text later but the first thing we need to do is to create a single dataframe (table) that will contain all the texts otherwise it will be very difficult to manage the data.
 
 ## Licence of the material
 All the material collected here is covered by a CC-BY-NC 4.0 License
