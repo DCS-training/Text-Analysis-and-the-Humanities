@@ -67,7 +67,9 @@ The original publication has been scanned and OCRed and each single record has b
 
 - Cross_and_Burness -> Parish
 
-We are going to see how to use this to extract information about all our text later but the first thing we need to do is to create a single dataframe (table) that will contain all the texts otherwise it will be very difficult to manage the data.
+We are going to see how to use this to extract information about all our text later, but the first thing we need to do is to create a single dataframe (table) that will contain all the texts otherwise, it will be very difficult to manage the data.
+
+**NB** The data are hosted on a separate repository 'https://github.com/DCS-training/EFIDeepDive'. This is to keep the cloning of this repo for teaching faster. We are going to import the dataset in our environment directly via the notebook.
 
 ## Licence of the material
 All the material collected here is covered by a CC-BY-NC 4.0 License
