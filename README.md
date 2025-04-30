@@ -4,7 +4,7 @@ In here you can find material and code to analyse the Scottish Statistical Accou
 
 ## Content of the Repository
 The repository contains both the code and the material you are going to need to play around with the dataset. 
-If you only want to visualise the notebooks without running its content you can visualise it at [this address](Addlink.html) and [this address](Addlink.html).
+If you only want to visualise the notebooks without running its content you can visualise it at [this address](https://htmlpreview.github.io/?https://github.com/DCS-training/Text-Analysis-and-the-Humanities/blob/main/Notebook1.html) and [this address](https://htmlpreview.github.io/?).
 
 ## Prerequisites
 Some basic familiarity with Python Notebooks is assumed, but no previous knowledge of text analysis is required.
