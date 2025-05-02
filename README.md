@@ -20,17 +20,7 @@ Some basic familiarity with Python Notebooks is assumed, but no previous knowled
   
 ## How to use it
 
-### 1. On Noteable 
-1. Open the following link in a new tab https://noteable.edina.ac.uk/login
-2. Log in with your EASE credential
-3. Select _Standard Python 3_ and press start
-4. On the top bar, go to Git> Clone a Repository
-5. Enter the link to this repo 'https://github.com/DCS-training/Text-Analysis-and-the-Humanities'
-6. Press Clone
-7. On the left side, you can now see a folder with the same name as the repo with a series of files within it. Double click on the 'NotebookTextAnalysis.ipynb'
-
-
-### 2. Run the notebooks via Google Colab
+### 1. Run the notebooks via Google Colab
 
 1. Open Google Colab: [https://colab.research.google.com](https://colab.research.google.com)
 2. If you are not already logged in, you will be prompted to log in via Gmail
@@ -39,6 +29,16 @@ Some basic familiarity with Python Notebooks is assumed, but no previous knowled
 5. Enter the link to this repo 'https://github.com/DCS-training/Text-Analysis-and-the-Humanities'
 6. Click on 'NotebookTextAnalysis.ipynb' to open the notebook
 
+### 2. On Noteable 
+1. Open the following link in a new tab https://noteable.edina.ac.uk/login
+2. Log in with your EASE credential
+3. Select _Standard Python 3_ and press start
+4. On the top bar, go to Git> Clone a Repository
+5. Enter the link to this repo 'https://github.com/DCS-training/Text-Analysis-and-the-Humanities'
+6. Press Clone
+7. On the left side, you can now see a folder with the same name as the repo with a series of files within it. Double click on the 'NotebookTextAnalysis.ipynb'
+
+**NB** the 'similar' and 'common_contexts' bit on the second Notebook is too CPU intensive for Noteable, so if you are running it on Noteable avoid running those two cells.
 
 ### Using the Notebook
 The Notebook contains paragraphs of explanatory text interspersed with grey cells containing code blocks. To run a code block and see the result:
